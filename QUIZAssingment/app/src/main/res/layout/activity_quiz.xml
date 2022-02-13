@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz"
+    android:orientation="vertical"
+   >
+    <ImageView
+        android:layout_marginLeft="130dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:drawableLeft="@drawable/ic_baseline_supervised_user_circle_24"
+        android:drawablePadding="5dp"
+        android:hint="UserName"
+        android:padding="20sp"
+        android:textColorHint="@color/black"
+        android:textSize="25sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PasWord"
+        android:textColorHint="@color/black"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_baseline_security_24"
+        android:padding="20sp"
+        android:drawablePadding="5dp"
+        android:layout_marginTop="250dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ForgotPaassWord?"
+        android:textSize="25sp"
+        android:textColor="@color/p"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="180dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:background="@color/p"
+        android:text="Login"
+        android:layout_marginTop="390dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not Login to Superior"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="90dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Now!"
+        android:textSize="35sp"
+        android:textColor="@color/p"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="110dp"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/uu"
+        android:layout_marginTop="600dp"/>
+
+
+
+
+
+
+</RelativeLayout>
